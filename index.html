@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lễ Hội Halloween 🎃</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <audio id="background-music" src="music.mp3" loop></audio>
+    <button id="music-toggle-btn"><i class="bi bi-play-fill"></i></button>
+    
+    <div class="ghost ghost1"></div>
+    <div class="ghost ghost2"></div>
+
+    <header>
+        <nav>
+            <a href="#home">Trang Chủ</a>
+            <a href="#gallery">Bộ Sưu Tập</a>
+            <a href="#register">Đăng Ký</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Đêm Hội Halloween</h1>
+            <p>Khám phá những điều kỳ bí trong đêm hội ma quái!</p>
+        </section>
+
+        <section id="gallery" class="hidden">
+            <h2>Bộ Sưu Tập Kinh Dị</h2>
+            <div class="image-grid">
+                <img src="images/Iconcreme-Halloween-Pumpkin.512.png" alt="Bí ngô ma quái">
+                <img src="images/Iconcreme-Halloween-Cat.512.png" alt="Mèo đen">
+                <img src="images/Iconcreme-Halloween-Mummy.512.png" alt="Xác ướp">
+                <img src="images/Witch.png" alt="Phù thủy">
+            </div>
+        </section>
+        
+
+        <section id="register" class="hidden">
+            <h2>Đăng Ký Tham Gia Tiệc</h2>
+            <form>
+                <input type="text" placeholder="Họ và Tên" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Gửi Đăng Ký</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Trang web Halloween</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
